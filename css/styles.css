@@ -1,6 +1,6 @@
-$primary-color: #fff;
-$border-radius: 25px;
-$black-color: #351897;
+/*$primary-color: #fff;
+/*$border-radius: 25px;
+$black-color: #351897;*/
 * {
   margin: 0;
   padding: 0;
@@ -19,72 +19,70 @@ body {
   background-color: #fff;
   position: relative;
   display: grid;
+  margin: 2em;
   grid-template-columns: 300px 600px;
   border-radius: 25px;
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
 }
-  img {
-    width: 300px;
-    height: 300px;
-    border-radius: 25px 0 0 25px;
-  }
-  .btn {
-    position: absolute;
-    bottom: -20px;
-    right: -20px;
-    border: none;
-    outline: none;
-    display: flex;
-    align-items: center;
-    background-color: #fc9400;
-    color: #fff;
-    padding: 22px 45px;
-    font-size: 1rem;
-    text-transform: uppercase;
-    border-radius: 25px;
-    cursor: pointer;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.294);
-  }
-    i {
-      margin-left: 20px;
-      font-size: 1.5rem;
-    }
-  }
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 25px 0 0 25px;
 }
+.btn {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  background-color: #fc9400;
+  color: #fff;
+  padding: 22px 45px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.294);
+}
+i {
+  margin-left: 20px;
+  font-size: 1.5rem;
+}
+
 .container__text {
   padding: 40px 40px 0;
   margin-bottom: 100px;
 }
-  h1 {
-    color: #351897;
-    font-weight: 400;
-    margin-bottom: 32px;
-  }
-  .container__text__star span {
-    font-size: 0.8rem;
-    color: #ffa800;
-    margin: -5px 0 20px;
-  }
-  p {
-    font-size: 0.9rem;
-  }
-  .container__text__timing {
-    display: flex;
-    margin: 20px 0 10px;
-  }
-    .container__text__timing_time {
-      margin-right: 40px;
-    }
-    h2 {
-      margin-bottom: 5px;
-      font-size: 1rem;
-      font-weight: 400;
-      color: #818189;
-    }
-    p {
-      color: #351897;
-      font-weight: bold;
-      font-size: 1.2rem;
-    }
-  }
+h1 {
+  color: #351897;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+.container__text__star span {
+  font-size: 0.8rem;
+  color: #ffa800;
+  margin: -5px 0 20px;
+}
+p {
+  font-size: 0.9rem;
+}
+.container__text__timing {
+  display: flex;
+  margin: 20px 0 10px;
+}
+.container__text__timing_time {
+  margin-right: 40px;
+}
+h2 {
+  margin-bottom: 5px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #818189;
+}
+p {
+  color: #351897;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
