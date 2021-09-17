@@ -8,7 +8,7 @@ $black-color: #351897;*/
 }
 
 body {
-  background-color: #c2a3d1;
+  background-color: #b9b0b0;
   font-family: Arial, Helvetica, sans-serif;
   display: grid;
   place-items: center;
@@ -55,7 +55,7 @@ i {
   padding: 40px 40px 0;
 }
 h1 {
-  color: #351897;
+  color: #f6921e;
   font-weight: 400;
   margin-bottom: 32px;
 }
@@ -81,7 +81,7 @@ h2 {
   color: #818189;
 }
 p {
-  color: #351897;
+  color: #50504f;
   font-weight: bold;
   font-size: 1.2rem;
 }
